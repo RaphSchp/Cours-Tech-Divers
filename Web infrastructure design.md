@@ -4,53 +4,61 @@
 
 ## Sommaire
 
-0. Simple web stack
+<details>
+<summary> <strong> 0. Simple web stack </strong> </summary>
+<br>
 
-You must use:
+- You must use:
 
-[Description Web infrastructure design]()
+  - [Description Web infrastructure design](https://github.com/RaphSchp/Cours-Tech-Divers/blob/main/Web%20infrastructure%20design.md#description)
+   
+  - [Server](https://github.com/RaphSchp/Cours-Tech-Divers/blob/main/Web%20infrastructure%20design.md#serveur-%EF%B8%8F)
+   
+  - [Web server (Nginx)](https://github.com/RaphSchp/Cours-Tech-Divers/blob/main/Web%20infrastructure%20design.md#serveur-web-nginx-)
+   
+  - [Application server](https://github.com/RaphSchp/Cours-Tech-Divers/blob/main/Web%20infrastructure%20design.md#serveur-dapplication-)
+   
+  - [Application files (your code base)](https://github.com/RaphSchp/Cours-Tech-Divers/blob/main/Web%20infrastructure%20design.md#fichiers-dapplication-)
+   
+  - [Database (MySQL)](https://github.com/RaphSchp/Cours-Tech-Divers/blob/main/Web%20infrastructure%20design.md#base-de-donn%C3%A9es-mysql-%EF%B8%8F)
+   
+  - [Domain name](https://github.com/RaphSchp/Cours-Tech-Divers/blob/main/Web%20infrastructure%20design.md#nom-de-domaine-)
 
-[Server]()
+- You must be able to explain some specifics about this infrastructure:
 
-[Web server (Nginx)]()
+  - [What is a server](https://github.com/RaphSchp/Cours-Tech-Divers/blob/main/Web%20infrastructure%20design.md#serveur-%EF%B8%8F)
+   
+  - [What is the role of the domain name](https://github.com/RaphSchp/Cours-Tech-Divers/blob/main/Web%20infrastructure%20design.md#nom-de-domaine-)
+   
+  - [What type of DNS record www is in www.foobar.com](https://github.com/RaphSchp/Cours-Tech-Divers/blob/main/Web%20infrastructure%20design.md#type-denregistrement-dns-pour-www-dans-wwwfoobarcom-)
+   
+  - [What is the role of the web server](https://github.com/RaphSchp/Cours-Tech-Divers/blob/main/Web%20infrastructure%20design.md#serveur-web-nginx-)
+   
+  - [What is the role of the application server](https://github.com/RaphSchp/Cours-Tech-Divers/blob/main/Web%20infrastructure%20design.md#serveur-dapplication-)
+   
+  - [What is the role of the database](https://github.com/RaphSchp/Cours-Tech-Divers/blob/main/Web%20infrastructure%20design.md#base-de-donn%C3%A9es-mysql-%EF%B8%8F)
+   
+  - [What is the server using to communicate with the computer of the user requesting the website](https://github.com/RaphSchp/Cours-Tech-Divers/blob/main/Web%20infrastructure%20design.md#communication-entre-le-serveur-et-lutilisateur-%EF%B8%8F)
 
-[Application server]()
+- You must be able to explain what the issues are with this infrastructure:
 
-[Application files (your code base)]()
+  - [SPOF](https://github.com/RaphSchp/Cours-Tech-Divers/blob/main/Web%20infrastructure%20design.md#types-de-spof--1)
 
-[Database (MySQL)]()
+  - [Downtime when maintenance needed (like deploying new code web server needs to be restarted)](https://github.com/RaphSchp/Cours-Tech-Divers/blob/main/Web%20infrastructure%20design.md#probl%C3%A8mes-li%C3%A9s-%C3%A0-lindisponibilit%C3%A9-lors-de-la-maintenance-%EF%B8%8F)
 
-[Domain name]()
+  - [Cannot scale if too much incoming traffic](https://github.com/RaphSchp/Cours-Tech-Divers/blob/main/Web%20infrastructure%20design.md#probl%C3%A8mes-li%C3%A9s-%C3%A0-lincapacit%C3%A9-de-mise-%C3%A0-l%C3%A9chelle-en-cas-de-trafic-%C3%A9lev%C3%A9-)
 
-You must be able to explain some specifics about this infrastructure:
-
-[What is a server]()
-
-[What is the role of the domain name]()
-
-[What type of DNS record www is in www.foobar.com]()
-
-[What is the role of the web server]()
-
-[What is the role of the application server]()
-
-[What is the role of the database]()
-
-[What is the server using to communicate with the computer of the user requesting the website]()
-
-You must be able to explain what the issues are with this infrastructure:
-
-[SPOF]()
-
-[Downtime when maintenance needed (like deploying new code web server needs to be restarted)]()
-
-[Cannot scale if too much incoming traffic]()
-
+</details>
+<!----------------------------------------------------------------------
 []()
 []()
 []()
 []()
+---------------------------------------------------------------------------------------->
+<br/>
+<br/>
 
+<!-------------------------------------------------------------------------------------------------------------------------------------------------------------->
 ## Description
 
 La conception de l'infrastructure Web (Web infrastructure design) est un élément essentiel de tout projet en ligne. Cette discipline englobe la planification et la configuration de l'ensemble des ressources technologiques nécessaires à une application web ou à un site internet. Elle vise à garantir la disponibilité, la performance, la sécurité et la scalabilité des systèmes sous-jacents. Cette infrastructure comprend des serveurs, des bases de données, des serveurs de contenu, des équilibreurs de charge, des pare-feu, et bien d'autres composants. 🔌💻
@@ -79,6 +87,8 @@ La conception de l'infrastructure Web (Web infrastructure design) est un éléme
 
 La conception de l'infrastructure Web est un processus en constante évolution, aligné sur les objectifs de l'entreprise et les avancées technologiques. Elle joue un rôle clé dans la réussite des projets en ligne, qu'il s'agisse de sites web d'information, d'e-commerce, de médias sociaux ou d'applications web complexes. 🌟
 
+<br/>
+<br/>
 
 <!-------------------------------------------------------------------------------------------------------------------------------------------------------------->
 # Serveur 🖥️
@@ -113,6 +123,8 @@ Le serveur (Server) est le cœur de toute infrastructure informatique. Il agit c
 
 Les serveurs sont le fondement de l'infrastructure informatique moderne. Ils fournissent les services essentiels pour les applications, les sites web et les systèmes, garantissant une expérience fluide et sécurisée pour les utilisateurs. 🌟
 
+<br/>
+<br/>
 
 <!-------------------------------------------------------------------------------------------------------------------------------------------------------------->
 # Serveur Web Nginx 🌐
@@ -155,6 +167,8 @@ Le serveur web Nginx (Web server (Nginx)) est un acteur incontournable de l'infr
 
 La conception web avec Nginx est une solution incontournable pour garantir la performance et la sécurité de vos sites web. Explorez les nombreuses fonctionnalités et avantages de Nginx pour améliorer votre présence en ligne. 💪
 
+<br/>
+<br/>
 
 <!-------------------------------------------------------------------------------------------------------------------------------------------------------------->
 # Serveur d'Application 🚀
@@ -197,6 +211,8 @@ Le serveur d'application (Application server) est un élément vital de l'archit
 
 La conception d'applications avec des serveurs d'application est essentielle pour développer des applications web interactives et robustes. Explorez les possibilités qu'offrent les serveurs d'application pour créer des expériences en ligne exceptionnelles. 🌐
 
+<br/>
+<br/>
 
 <!-------------------------------------------------------------------------------------------------------------------------------------------------------------->
 # Fichiers d'Application 📁
@@ -238,6 +254,8 @@ Notre base de code est organisée de manière logique, avec des dossiers pour ch
 
 Nous encourageons la contribution de la communauté. N'hésitez pas à cloner, proposer des modifications et collaborer avec nous pour améliorer notre application. Votre expertise est précieuse. 🌟
 
+<br/>
+<br/>
 
 <!-------------------------------------------------------------------------------------------------------------------------------------------------------------->
 # Base de Données MySQL 🗄️
@@ -275,6 +293,8 @@ Notre base de données MySQL est structurée de manière logique, avec des table
 
 La gestion de la base de données est essentielle pour la fiabilité et la performance de notre application. Nous accueillons les contributions et la collaboration pour améliorer notre modèle de données et nos requêtes. Votre expertise est précieuse. 🌟
 
+<br/>
+<br/>
 
 <!-------------------------------------------------------------------------------------------------------------------------------------------------------------->
 # Nom de Domaine 🌐
@@ -317,6 +337,8 @@ Les noms de domaine nécessitent une gestion appropriée, notamment le renouvell
 Le nom de domaine est bien plus qu'une simple adresse en ligne. C'est une passerelle vers un monde d'opportunités et d'information sur Internet. 🌐
 
 
+<br/>
+<br/>
 
 <!-------------------------------------------------------------------------------------------------------------------------------------------------------------->
 # Type d'Enregistrement DNS pour "www" dans www.foobar.com 🌐
@@ -341,6 +363,8 @@ Lorsque nous parlons d'un nom de domaine comme "www.foobar.com," l'élément "ww
 
 Dans l'ensemble, "www" est un élément essentiel de la structure d'un site web, permettant aux visiteurs d'accéder à la version web du contenu. 🌟
 
+<br/>
+<br/>
 
 <!-------------------------------------------------------------------------------------------------------------------------------------------------------------->
 # Communication entre le Serveur et l'Utilisateur 🖥️
@@ -375,6 +399,8 @@ L'adresse IP (Internet Protocol) est utilisée pour identifier l'ordinateur de l
 
 La communication entre le serveur et l'ordinateur de l'utilisateur permet un accès rapide et fiable au contenu en ligne. C'est un processus fondamental pour chaque requête de site web. 🌐
 
+<br/>
+<br/>
 
 <!-------------------------------------------------------------------------------------------------------------------------------------------------------------->
 # Problèmes liés à un "Single Point of Failure" (SPOF) 🚫
@@ -408,6 +434,8 @@ Pour atténuer les risques associés à un SPOF, il est essentiel de mettre en p
 
 En abordant le problème du SPOF, une infrastructure peut devenir plus résiliente et fiable. Cela peut impliquer des stratégies telles que des serveurs redondants, l'équilibrage de charge, des sources d'alimentation de secours et des chemins réseau redondants. 🌟
 
+<br/>
+<br/>
 
 <!-------------------------------------------------------------------------------------------------------------------------------------------------------------->
 # Problèmes liés à un "Single Point of Failure" (SPOF) 🚫
@@ -441,6 +469,8 @@ Pour atténuer les risques associés à un SPOF, il est essentiel de mettre en p
 
 En abordant le problème du SPOF, une infrastructure peut devenir plus résiliente et fiable. Cela peut impliquer des stratégies telles que des serveurs redondants, l'équilibrage de charge, des sources d'alimentation de secours et des chemins réseau redondants. 🌟
 
+<br/>
+<br/>
 
 <!-------------------------------------------------------------------------------------------------------------------------------------------------------------->
 # Problèmes liés à l'Indisponibilité lors de la Maintenance ⚙️
@@ -475,6 +505,8 @@ Pour atténuer les problèmes liés à l'indisponibilité lors de la maintenance
 
 L'équilibre entre la maintenance nécessaire et la disponibilité est essentiel pour garantir que les mises à jour et les améliorations puissent être déployées sans perturber excessivement les utilisateurs. Cela nécessite une planification minutieuse et l'utilisation de meilleures pratiques de gestion. 🌟
 
+<br/>
+<br/>
 
 <!-------------------------------------------------------------------------------------------------------------------------------------------------------------->
 # Problèmes liés à l'Incapacité de Mise à l'Échelle en Cas de Trafic Élevé 🚫
