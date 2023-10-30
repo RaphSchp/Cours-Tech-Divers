@@ -2,7 +2,7 @@
     <h1> Web infrastructure design </h1>
 </div>
 
-## Sommaire
+# Sommaire
 
 <details>
 <summary> <strong> 0. Simple web stack </strong> </summary>
@@ -59,7 +59,7 @@
 <br/>
 
 <!-------------------------------------------------------------------------------------------------------------------------------------------------------------->
-## Description
+# Description
 
 La conception de l'infrastructure Web (Web infrastructure design) est un élément essentiel de tout projet en ligne. Cette discipline englobe la planification et la configuration de l'ensemble des ressources technologiques nécessaires à une application web ou à un site internet. Elle vise à garantir la disponibilité, la performance, la sécurité et la scalabilité des systèmes sous-jacents. Cette infrastructure comprend des serveurs, des bases de données, des serveurs de contenu, des équilibreurs de charge, des pare-feu, et bien d'autres composants. 🔌💻
 
