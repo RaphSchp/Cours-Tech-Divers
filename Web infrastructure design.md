@@ -50,15 +50,15 @@
 
 - Other informations:
 
-  - [LAMP stack]()
+  - [LAMP stack](https://github.com/RaphSchp/Cours-Tech-Divers/blob/main/Web%20infrastructure%20design.md#stack-lamp--)
   
-  - [Linux]()
+  - [Linux](https://github.com/RaphSchp/Cours-Tech-Divers/blob/main/Web%20infrastructure%20design.md#linux--)
   
-  - [Apache]()
+  - [Apache](https://github.com/RaphSchp/Cours-Tech-Divers/blob/main/Web%20infrastructure%20design.md#apache--)
   
-  - [MySQL and database alternatives]()
+  - [MySQL and database alternatives](https://github.com/RaphSchp/Cours-Tech-Divers/blob/main/Web%20infrastructure%20design.md#mysql--)
   
-  - [PHP and alternatives]()
+  - [PHP and alternatives](https://github.com/RaphSchp/Cours-Tech-Divers/blob/main/Web%20infrastructure%20design.md#php--)
 
 </details>
 <br>
@@ -69,23 +69,23 @@
 
 - You must add:
 
-[Load-balancer (HAproxy)]()
+[Load-balancer (HAproxy)](https://github.com/RaphSchp/Cours-Tech-Divers/blob/main/Web%20infrastructure%20design.md#%C3%A9quilibreur-de-charge-haproxy--%EF%B8%8F)
 
 - You must be able to explain some specifics about this infrastructure:
 
-  - [What distribution algorithm your load balancer is configured with and how it works]()
+  - [What distribution algorithm your load balancer is configured with and how it works](https://github.com/RaphSchp/Cours-Tech-Divers/blob/main/Web%20infrastructure%20design.md#sp%C3%A9cificit%C3%A9s-de-linfrastructure--)
   
-  - [Is your load-balancer enabling an Active-Active or Active-Passive setup, explain the difference between both]()
+  - [Is your load-balancer enabling an Active-Active or Active-Passive setup, explain the difference between both](https://github.com/RaphSchp/Cours-Tech-Divers/blob/main/Web%20infrastructure%20design.md#sp%C3%A9cificit%C3%A9s-de-linfrastructure---1)
   
-  - [How a database Primary-Replica (Master-Slave) cluster works]()
+  - [How a database Primary-Replica (Master-Slave) cluster works](https://github.com/RaphSchp/Cours-Tech-Divers/blob/main/Web%20infrastructure%20design.md#sp%C3%A9cificit%C3%A9s-de-linfrastructure---2)
   
-  - [What is the difference between the Primary node and the Replica node in regard to the application]()
+  - [What is the difference between the Primary node and the Replica node in regard to the application](https://github.com/RaphSchp/Cours-Tech-Divers/blob/main/Web%20infrastructure%20design.md#sp%C3%A9cificit%C3%A9s-de-linfrastructure---3)
 
 - You must be able to explain what the issues are with this infrastructure:
 
-  - [Security issues (no firewall, no HTTPS)]()
+  - [Security issues (no firewall, no HTTPS)](https://github.com/RaphSchp/Cours-Tech-Divers/blob/main/Web%20infrastructure%20design.md#probl%C3%A8mes-de-s%C3%A9curit%C3%A9-de-linfrastructure--)
   
-  - [No monitoring]()
+  - [No monitoring](https://github.com/RaphSchp/Cours-Tech-Divers/blob/main/Web%20infrastructure%20design.md#probl%C3%A8mes-de-linfrastructure--)
 
 
 </details>
@@ -99,29 +99,29 @@
 
   - [Firewalls]()
   
-  - [SSL certificate to serve www.foobar.com over HTTPS]()
+  - [SSL certificate to serve www.foobar.com over HTTPS](https://github.com/RaphSchp/Cours-Tech-Divers/blob/main/Web%20infrastructure%20design.md#certificat-ssl-pour-servir-wwwfoobarcom-en-https--)
   
-  - [Monitoring clients (data collector for Sumologic or other monitoring services)]()
+  - [Monitoring clients (data collector for Sumologic or other monitoring services)](https://github.com/RaphSchp/Cours-Tech-Divers/blob/main/Web%20infrastructure%20design.md#surveillance-des-clients--collecteur-de-donn%C3%A9es-pour-sumo-logic-et-autres-services-de-surveillance-)
 
 - You must be able to explain some specifics about this infrastructure:
 
-  - [What are firewalls for]()
+  - [What are firewalls for](https://github.com/RaphSchp/Cours-Tech-Divers/blob/main/Web%20infrastructure%20design.md#%C3%A0-quoi-servent-les-pare-feu--)
   
-  - [Why is the traffic served over HTTPS]()
+  - [Why is the traffic served over HTTPS](https://github.com/RaphSchp/Cours-Tech-Divers/blob/main/Web%20infrastructure%20design.md#pourquoi-le-trafic-est-servi-via-https--)
   
-  - [What monitoring is used for]()
+  - [What monitoring is used for](https://github.com/RaphSchp/Cours-Tech-Divers/blob/main/Web%20infrastructure%20design.md#%C3%A0-quoi-sert-la-surveillance--)
   
-  - [How the monitoring tool is collecting data]()
+  - [How the monitoring tool is collecting data](https://github.com/RaphSchp/Cours-Tech-Divers/blob/main/Web%20infrastructure%20design.md#comment-loutil-de-surveillance-collecte-t-il-des-donn%C3%A9es--)
   
-  - [Explain what to do if you want to monitor your web server QPS]()
+  - [Explain what to do if you want to monitor your web server QPS](https://github.com/RaphSchp/Cours-Tech-Divers/blob/main/Web%20infrastructure%20design.md#comment-surveiller-le-d%C3%A9bit-de-requ%C3%AAtes-par-seconde-qps-de-votre-serveur-web--)
 
 - You must be able to explain what the issues are with this infrastructure:
 
-  - [Why terminating SSL at the load balancer level is an issue]()
+  - [Why terminating SSL at the load balancer level is an issue](https://github.com/RaphSchp/Cours-Tech-Divers/blob/main/Web%20infrastructure%20design.md#pourquoi-terminer-ssl-au-niveau-du-load-balancer-est-un-probl%C3%A8me--)
   
-  - [Why having only one MySQL server capable of accepting writes is an issue]()
+  - [Why having only one MySQL server capable of accepting writes is an issue](https://github.com/RaphSchp/Cours-Tech-Divers/blob/main/Web%20infrastructure%20design.md#pourquoi-avoir-un-seul-serveur-mysql-capable-daccepter-des-%C3%A9critures-est-un-probl%C3%A8me--)
   
-  - [Why having servers with all the same components (database, web server and application server) might be a problem]()
+  - [Why having servers with all the same components (database, web server and application server) might be a problem](https://github.com/RaphSchp/Cours-Tech-Divers/blob/main/Web%20infrastructure%20design.md#pourquoi-avoir-des-serveurs-avec-les-m%C3%AAmes-composants-base-de-donn%C3%A9es-serveur-web-et-serveur-dapplication-peut-poser-un-probl%C3%A8me--)
 
 </details>
 
@@ -129,7 +129,7 @@
 <br/>
 
 <!-------------------------------------------------------------------------------------------------------------------------------------------------------------->
-# Description
+# Description ℹ️
 
 La conception de l'infrastructure Web (Web infrastructure design) est un élément essentiel de tout projet en ligne. Cette discipline englobe la planification et la configuration de l'ensemble des ressources technologiques nécessaires à une application web ou à un site internet. Elle vise à garantir la disponibilité, la performance, la sécurité et la scalabilité des systèmes sous-jacents. Cette infrastructure comprend des serveurs, des bases de données, des serveurs de contenu, des équilibreurs de charge, des pare-feu, et bien d'autres composants. 🔌💻
 
@@ -962,6 +962,43 @@ Pour résoudre ce problème, il est recommandé de mettre en place un système d
 - **Maintenance Continue** : La surveillance ne doit pas être mise en place de manière statique. Elle nécessite une maintenance continue pour s'adapter aux évolutions de l'infrastructure.
 
 En résumé, l'absence de surveillance est un problème critique qui peut entraîner des défis non identifiés et des risques pour l'infrastructure. La mise en place d'un système de surveillance adéquat est essentielle pour assurer la visibilité, la disponibilité et la performance du système.
+<br/>
+<br/>
+
+<!-------------------------------------------------------------------------------------------------------------------------------------------------------------->
+# Qu'est-ce qu'un Pare-feu (Firewall) ? 🔒
+
+Un pare-feu est un élément essentiel de la sécurité informatique conçu pour protéger un réseau informatique contre les menaces et les accès non autorisés. Il agit comme une barrière virtuelle entre un réseau privé et le monde extérieur, en contrôlant le trafic entrant et sortant.
+
+## Rôle et Fonctionnement : 🛡️
+
+Le pare-feu a pour principale mission de filtrer le trafic réseau, en autorisant ou en bloquant les paquets de données en fonction de règles prédéfinies. Voici comment il fonctionne :
+
+- **Filtrage des Paquets** : Le pare-feu analyse chaque paquet de données qui entre ou sort du réseau. Il examine des informations telles que les adresses IP, les ports et les protocoles.
+
+- **Règles de Sécurité** : Les administrateurs réseau configurent des règles de sécurité pour indiquer au pare-feu comment traiter le trafic. Par exemple, une règle peut autoriser le trafic HTTP (port 80) mais bloquer le trafic SSH (port 22).
+
+- **Contrôle d'Accès** : Le pare-feu contrôle l'accès au réseau en fonction des règles. Il peut bloquer les tentatives d'intrusion, les logiciels malveillants, les attaques DDoS et d'autres menaces.
+
+- **NAT (Network Address Translation)** : Certains pare-feu effectuent également la translation d'adresses réseau, permettant à plusieurs dispositifs d'utiliser une seule adresse IP publique.
+
+## Types de Pare-feu : 🗂️
+
+Il existe différents types de pare-feu, notamment :
+
+- **Pare-feu Matériel** : Les dispositifs matériels dédiés qui agissent en tant que passerelle entre le réseau interne et Internet.
+
+- **Pare-feu Logiciel** : Des applications logicielles qui s'exécutent sur un ordinateur et fournissent des fonctionnalités de pare-feu.
+
+- **Pare-feu de Niveau Applicatif** : Ils surveillent le trafic à un niveau plus avancé, en inspectant le contenu des paquets.
+
+- **Pare-feu de Niveau de Paquet** : Ils fonctionnent en inspectant uniquement les entêtes des paquets.
+
+## Importance de la Sécurité Réseau : 🌐
+
+Les pare-feu sont un élément clé de la sécurité réseau, protégeant contre les menaces en ligne, les intrusions et la fuite d'informations sensibles. Ils sont utilisés dans les réseaux d'entreprise, les serveurs web, les routeurs domestiques et d'autres environnements pour renforcer la sécurité et la confidentialité des données.
+
+En bref, un pare-feu est essentiel pour créer une barrière protectrice entre un réseau et les risques potentiels qui circulent sur Internet.
 
 <br/>
 <br/>
