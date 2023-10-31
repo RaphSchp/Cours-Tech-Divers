@@ -97,7 +97,7 @@
 
 - You must add:
 
-  - [Firewalls]()
+  - [Firewalls](https://github.com/RaphSchp/Cours-Tech-Divers/blob/main/Web%20infrastructure%20design.md#quest-ce-quun-pare-feu-firewall--)
   
   - [SSL certificate to serve www.foobar.com over HTTPS](https://github.com/RaphSchp/Cours-Tech-Divers/blob/main/Web%20infrastructure%20design.md#certificat-ssl-pour-servir-wwwfoobarcom-en-https--)
   
